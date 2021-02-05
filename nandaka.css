@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Nandaka Western';
+    src: url('Nandaka-Western.eot');
+    src: local('Nandaka Western'), local('Nandaka-Western'),
+        url('Nandaka-Western.eot?#iefix') format('embedded-opentype'),
+        url('Nandaka-Western.woff2') format('woff2'),
+        url('Nandaka-Western.woff') format('woff'),
+        url('Nandaka-Western.ttf') format('truetype'),
+        url('Nandaka-Western.svg#Nandaka-Western') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
