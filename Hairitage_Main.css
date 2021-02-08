@@ -21,7 +21,20 @@ header {}
 
 nav {}
 
-aside {}
+aside {
+    color: white;
+    background: linear-gradient(to right, rgba(191, 149, 63, .3), rgba(252, 246, 186, .3), rgba(179, 135, 40, .3), rgba(251, 245, 183, .3), rgba(170, 119, 28, .3));
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 12px;
+    border: 5px solid black;
+}
+
+aside ul li,
+aside ul h3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
 main {}
 
@@ -34,7 +47,7 @@ footer {}
 
 .grid-container {
     display: grid;
-    grid-template-areas: "header header nav" "aside main main" "footer footer social";
+    grid-template-areas: "header header nav""aside main main""footer footer social";
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: 1fr 3fr 1fr;
 }
