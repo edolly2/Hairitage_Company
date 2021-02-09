@@ -15,15 +15,20 @@ html {
 
 /* =======MAIN SELECTORS======== */
 
-body {}
+body {
+    color: white;
+}
 
 header {}
 
 nav {}
 
+nav a {}
+
 aside {
     color: white;
-    background: linear-gradient(to right, rgba(191, 149, 63, .3), rgba(252, 246, 186, .3), rgba(179, 135, 40, .3), rgba(251, 245, 183, .3), rgba(170, 119, 28, .3));
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(130, 130, 130, 0.31416316526610644) 46%, rgba(0, 0, 0, 1) 100%);
     margin-top: 10%;
     margin-bottom: 10%;
     border-radius: 12px;
@@ -66,6 +71,10 @@ footer {}
     justify-content: space-around;
 }
 
+.grid-nav a {
+    color: white;
+}
+
 .grid-aside {
     grid-area: aside;
 }
@@ -89,15 +98,27 @@ body,
 html {
     font-family: 'Nandaka Western';
     text-align: center;
-    background-image: url("barbershopbg.jpg");
+    background: rgb(135, 135, 135);
+    background: radial-gradient(circle, rgba(100, 100, 100, 0.325) 8%, rgba(133, 133, 133, 0.35057773109243695) 29%, rgba(66, 66, 66, 0.3) 45%, rgba(24, 25, 25, 1) 100%), url('barbershopbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
+    text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 0px 2px 2px black, 2px 0px 2px black, 0px -2px 2px black, -2px 0px 2px black, 5px 5px 10px black;
 }
 
 h1 {
     font-size: 4em;
+    color: #BF953F;
+    text-shadow: inset;
+}
+
+i {
+    color: #BF953F;
+}
+
+h3 {
+    font-size: 2em;
 }
 
 nav {
