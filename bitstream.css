@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Bitstream Vera Serif';
+    src: url('BitstreamVeraSerif-Roman.eot');
+    src: local('Bitstream Vera Serif'), local('BitstreamVeraSerif-Roman'),
+        url('BitstreamVeraSerif-Roman.eot?#iefix') format('embedded-opentype'),
+        url('BitstreamVeraSerif-Roman.woff2') format('woff2'),
+        url('BitstreamVeraSerif-Roman.woff') format('woff'),
+        url('BitstreamVeraSerif-Roman.ttf') format('truetype'),
+        url('BitstreamVeraSerif-Roman.svg#BitstreamVeraSerif-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
