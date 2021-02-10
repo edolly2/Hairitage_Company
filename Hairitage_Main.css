@@ -45,7 +45,10 @@
             
             section {}
             
-            footer {}
+            footer {
+                position: fixed;
+                bottom: 0;
+            }
             /* =======GRID======== */
             
             .grid-container {
@@ -83,7 +86,6 @@
             
             .grid-footer {
                 grid-area: footer;
-                overflow: hidden;
             }
             
             .grid-social {
@@ -95,6 +97,7 @@
             
             body,
             html {
+                overflow: scroll;
                 font-family: 'Nandaka Western';
                 text-align: center;
                 background: rgb(135, 135, 135);
