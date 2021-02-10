@@ -35,10 +35,10 @@
                 bottom: -15%;
             }
             
-            aside ul li,
-            aside ul h3 {
-                margin-top: 10%;
-                margin-bottom: 10%;
+            ul li i,
+            ul li h3 {
+                padding-top: 10%;
+                padding-bottom: 10%;
             }
             
             main {}
@@ -83,17 +83,18 @@
             
             .grid-footer {
                 grid-area: footer;
-                background-color: transparent;
+                overflow: hidden;
             }
             
             .grid-social {
                 grid-area: social;
             }
+            
+            footer {}
             /* =======TYPOGRAPHY======== */
             
             body,
             html {
-                height: 100%;
                 font-family: 'Nandaka Western';
                 text-align: center;
                 background: rgb(135, 135, 135);
@@ -103,7 +104,7 @@
                 background-position: center;
                 height: 100%;
                 text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 0px 2px 2px black, 2px 0px 2px black, 0px -2px 2px black, -2px 0px 2px black, 5px 5px 10px black;
-                overflow-y: auto;
+                margin-bottom: 0;
             }
             
             h1 {
