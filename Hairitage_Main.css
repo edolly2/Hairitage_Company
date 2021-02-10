@@ -13,15 +13,21 @@
             }
             /* =======MAIN SELECTORS======== */
             
-            body {
+            body,
+            html {
+                overflow: scroll;
+                font-family: 'Nandaka Western';
+                text-align: center;
+                background: rgb(135, 135, 135);
+                background: radial-gradient(circle, rgba(100, 100, 100, 0.325) 8%, rgba(133, 133, 133, 0.35057773109243695) 29%, rgba(66, 66, 66, 0.3) 45%, rgba(24, 25, 25, 1) 100%), url('barbershopbg.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 100%;
+                text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 0px 2px 2px black, 2px 0px 2px black, 0px -2px 2px black, -2px 0px 2px black, 5px 5px 10px black;
+                margin-bottom: 0;
                 color: white;
             }
-            
-            header {}
-            
-            nav {}
-            
-            nav a {}
             
             aside {
                 color: white;
@@ -41,12 +47,8 @@
                 padding-bottom: 10%;
             }
             
-            main {}
-            
-            section {}
-            
             footer {
-                position: fixed;
+                display: flex;
                 bottom: 0;
             }
             /* =======GRID======== */
@@ -96,35 +98,7 @@
                 overflow: hidden;
             }
             /* =======TYPOGRAPHY======== */
-            
-            body,
-            html {
-                overflow: scroll;
-                font-family: 'Nandaka Western';
-                text-align: center;
-                background: rgb(135, 135, 135);
-                background: radial-gradient(circle, rgba(100, 100, 100, 0.325) 8%, rgba(133, 133, 133, 0.35057773109243695) 29%, rgba(66, 66, 66, 0.3) 45%, rgba(24, 25, 25, 1) 100%), url('barbershopbg.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                height: 100%;
-                text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 0px 2px 2px black, 2px 0px 2px black, 0px -2px 2px black, -2px 0px 2px black, 5px 5px 10px black;
-                margin-bottom: 0;
-            }
-            
-            h1 {
-                font-size: 4em;
-                color: #BF953F;
-                text-shadow: inset;
-            }
-            
-            i {
-                color: #BF953F;
-            }
-            
-            h2 {
-                font-size: 2em;
-            }
+            /* ---FAMILY--- */
             
             h2,
             p,
@@ -134,13 +108,30 @@
                 font-family: 'Bitstream Vera Serif';
                 font-weight: normal;
             }
+            /* ---SIZE--- */
+            
+            h1 {
+                font-size: 4em;
+            }
+            
+            h2 {
+                font-size: 2em;
+            }
             
             h3 {
                 font-size: 2em;
             }
             
             nav {
-                font-size: 1em;
+                font-size: 1em
+            }
+            
+            h1,
+            i {
+                color: #BF953F;
+            }
+            
+            nav {
                 width: 100%;
                 margin: auto;
             }
@@ -157,6 +148,8 @@
                 border-radius: 5px;
                 border: 2px solid black;
             }
+            /* ==========BUTTONS=========== */
+            /* ---ENTER--- */
             
             button {
                 background: linear-gradient(45deg, rgba(255, 0, 0, 0.5) 0 12.5%, rgba(255, 255, 255, 0.5) 0 25%, rgba(0, 4, 255, 0.5) 0 37.5%, rgba(255, 255, 255, 0.5) 0 50%, rgba(255, 0, 0, 0.5) 0 62.5%, rgba(255, 255, 255, 0.5) 0 75%, rgba(0, 4, 255, 0.5) 0 87.5%, rgba(255, 255, 255, 0.5) 0);
@@ -177,6 +170,7 @@
                 text-align: center;
                 text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 0px 2px 2px black, 2px 0px 2px black, 0px -2px 2px black, -2px 0px 2px black, 5px 5px 10px black;
             }
+            /* ---PHONE--- */
             
             .phone {
                 background-color: green;
@@ -187,14 +181,17 @@
             .number {
                 text-decoration: none;
             }
-            /* =======SIZING======== */
-            /* =======MAIN SELECTORS======== */
-            /* =======MAIN SELECTORS======== */
-            /* =======MAIN SELECTORS======== */
-            /* =======MAIN SELECTORS======== */
-            /* =======MAIN SELECTORS======== */
-            /* =======MAIN SELECTORS======== */
-            /* =======MAIN SELECTORS======== */
+            /* ---SOCIAL--- */
+            
+            .social {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            
+            .social a {
+                padding: 0 5%;
+            }
+            /* ===============ANIMATION=============== */
             
             @keyframes button {
                 0% {
@@ -237,6 +234,7 @@
                     background: linear-gradient(45deg, rgba(255, 0, 0, 0.5) 0 12.5%, rgba(255, 255, 255, 0.5) 0 25%, rgba(0, 4, 255, 0.5) 0 37.5%, rgba(255, 255, 255, 0.5) 0 50%, rgba(255, 0, 0, 0.5) 0 62.5%, rgba(255, 255, 255, 0.5) 0 75%, rgba(0, 4, 255, 0.5) 0 87.5%, rgba(255, 255, 255, 0.5) 0);
                 }
             }
+            /* =============MEDIA Qs============== */
             
             @media screen and (max-width: 1300px) {
                 .grid-container {
