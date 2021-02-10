@@ -92,7 +92,9 @@
                 grid-area: social;
             }
             
-            footer {}
+            footer {
+                overflow: hidden;
+            }
             /* =======TYPOGRAPHY======== */
             
             body,
