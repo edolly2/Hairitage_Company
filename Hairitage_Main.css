@@ -89,9 +89,13 @@
                 }
                 
                 .social a {
-                    padding: 5% 2%;
+                    padding: 0 2%;
                     text-decoration: none;
-                    /* align-self: flex-end; */
+                    align-self: flex-end;
+                }
+                
+                .social-icon:hover {
+                    transform: translate(10px, 10px);
                 }
                 /* =======TYPOGRAPHY======== */
                 /* ---FAMILY--- */
@@ -138,6 +142,14 @@
                     padding: 10px 5px;
                 }
                 
+                nav a:hover {
+                    color: rgba(255, 0, 0, 1);
+                }
+                
+                nav a::after {
+                    color: rgba(255, 0, 0, 1)
+                }
+                
                 nav :last-child {
                     padding: 7px 20px;
                     background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
@@ -166,6 +178,10 @@
                     font-family: 'Nandaka Western';
                     text-align: center;
                     text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 0px 2px 2px black, 2px 0px 2px black, 0px -2px 2px black, -2px 0px 2px black, 5px 5px 10px black;
+                }
+                
+                button a:hover {
+                    color: rgba(255, 0, 0, 1);
                 }
                 /* ---PHONE--- */
                 
@@ -231,7 +247,7 @@
                         grid-template-rows: 1fr 3fr 1fr;
                     }
                     body {
-                        overflow: scroll;
+                        overflow-y: scroll;
                     }
                 }
                 
@@ -248,11 +264,15 @@
                         margin: auto;
                         width: 30%;
                     }
+                    .social a {
+                        padding: 5% 2%;
+                    }
                     button {
                         margin: 5% 0;
                     }
                     h1 {
                         font-size: 3.5em;
+                        padding-top: 5%;
                     }
                     h2,
                     h3 {
