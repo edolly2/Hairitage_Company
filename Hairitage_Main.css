@@ -146,6 +146,10 @@
                     color: rgba(255, 0, 0, 1);
                 }
                 
+                nav a:active {
+                    color: rgba(255, 0, 0, 1);
+                }
+                
                 nav a::after {
                     color: rgba(255, 0, 0, 1)
                 }
