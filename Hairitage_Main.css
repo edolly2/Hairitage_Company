@@ -111,7 +111,7 @@
                 /* ---SIZE--- */
                 
                 h1 {
-                    font-size: 4em;
+                    font-size: 5em;
                 }
                 
                 h2 {
@@ -168,12 +168,13 @@
                     background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0 12.5%, rgba(255, 255, 255, 1) 0 25%, rgba(0, 4, 255, 1) 0 37.5%, rgba(255, 255, 255, 1) 0 50%, rgba(255, 0, 0, 1) 0 62.5%, rgba(255, 255, 255, 1) 0 75%, rgba(0, 4, 255, 1) 0 87.5%, rgba(255, 255, 255, 1) 0);
                     border-radius: 5px;
                     box-shadow: 5px 5px 10px black;
-                    padding: 1vh 5vw;
+                    padding: 1vh 4vw;
                     animation-name: button;
                     animation-duration: 3.5s;
                     animation-iteration-count: infinite;
                     animation-direction: normal;
                     animation-timing-function: linear;
+                    margin-top: 5%;
                 }
                 
                 button a {
