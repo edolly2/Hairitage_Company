@@ -164,12 +164,12 @@
                 /* ==========BUTTONS=========== */
                 /* ---ENTER--- */
                 
-                button {
+                .enter {
                     background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0 12.5%, rgba(255, 255, 255, 1) 0 25%, rgba(0, 4, 255, 1) 0 37.5%, rgba(255, 255, 255, 1) 0 50%, rgba(255, 0, 0, 1) 0 62.5%, rgba(255, 255, 255, 1) 0 75%, rgba(0, 4, 255, 1) 0 87.5%, rgba(255, 255, 255, 1) 0);
                     border-radius: 5px;
                     box-shadow: 5px 5px 10px black;
                     padding: 1vh 4vw;
-                    animation-name: button;
+                    animation-name: enter;
                     animation-duration: 3.5s;
                     animation-iteration-count: infinite;
                     animation-direction: normal;
@@ -177,7 +177,7 @@
                     margin-top: 5%;
                 }
                 
-                button a {
+                .enter a {
                     color: white;
                     text-decoration: none;
                     font-size: 1.5em;
@@ -186,7 +186,7 @@
                     text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 0px 2px 2px black, 2px 0px 2px black, 0px -2px 2px black, -2px 0px 2px black, 5px 5px 10px black;
                 }
                 
-                button a:hover {
+                .enter a:hover {
                     color: rgba(255, 0, 0, 1);
                 }
                 /* ---PHONE--- */
@@ -202,7 +202,7 @@
                 }
                 /* ===============ANIMATION=============== */
                 
-                @keyframes button {
+                @keyframes enter {
                     0% {
                         background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0 12.5%, rgba(255, 255, 255, 1) 0 25%, rgba(0, 4, 255, 1) 0 37.5%, rgba(255, 255, 255, 1) 0 50%, rgba(255, 0, 0, 1) 0 62.5%, rgba(255, 255, 255, 1) 0 75%, rgba(0, 4, 255, 1) 0 87.5%, rgba(255, 255, 255, 1) 0);
                     }
@@ -273,7 +273,7 @@
                     .social a {
                         padding: 5% 2%;
                     }
-                    button {
+                    .enter {
                         margin: 5% 0;
                     }
                     h1 {
