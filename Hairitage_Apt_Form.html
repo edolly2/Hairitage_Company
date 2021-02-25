@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="nandaka.css" type="text/css">
     <link rel="stylesheet" href="bitstream.css" type="text/css">
     <link rel="stylesheet" href="Hairitage_Main.css" type="text/css">
+    <link rel="stylesheet" href="Hairitage_Apt_Form.css" type="text/css">
     <link rel="sortcut icon" href="hairbarb.png" type="image/x-icon">
+    <script src="calander.js" defer></script>
+    <title>Hairitage Barbershop, Haircuts, Mens cuts,</title>
     <style>
         #request {
             color: red;
         }
     </style>
 
-    <title>Hairitage Barbershop, Haircuts, Mens cuts,</title>
 </head>
 
 <body class="grid-container">
@@ -37,18 +39,74 @@
             <h1>Request An Appointment</h1>
         </section>
 
+        <div class="container">
+            <div>
+                <h3>Request an appointment and we will get right back to you!</h3>
+            </div>
+
+            <div class="row input-container">
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <label>Name:</label>
+                        <input type="text" required />
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label>Phone Number</label>
+                        <input type="text" required />
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label>Email:</label>
+                        <input type="text" required />
+
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <label>Day of Request</label>
+
+                    </div>
+                </div>
+
+                <div id="app"></div>
+
+                <script src="calander.js"></script>
+
+                <div>
+                    <div>
+                        <label>Special Message:</label>
+                        <textarea></textarea>
+
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <div><button>Send Request</button></div>
+                </div>
+            </div>
+        </div>
+
+
 
     </main>
 
-    <footer class="grid-footer">
-        <p>#COPYRIGHT</p>
-        <span class="social">
-            <a href="#"><img src="facebook-square.png" alt="Hairitage facebook"></a>
-            <a href="#"><img src="twitter-square.png" alt="Hairitage twitter"></a>
-            <a href="mailto:Hairitagebarbershop@protonmail.com" target="_blank" rel="noopener noreferrer"><img
-                    src="proton.png" alt="Hairitage mail" class="social-icon"></a>
-        </span>
-    </footer>
+
+
+    <span class="social">
+        <a href="#"><img src="facebook-square.png" alt="Hairitage facebook"></a>
+        <a href="#"><img src="twitter-square.png" alt="Hairitage twitter"></a>
+        <a href="mailto:Hairitagebarbershop@protonmail.com" target="_blank" rel="noopener noreferrer"><img
+                src="proton.png" alt="Hairitage mail" class="social-icon"></a>
+    </span>
+
 </body>
 
 </html>
